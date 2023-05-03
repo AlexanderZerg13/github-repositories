@@ -1,0 +1,61 @@
+.Main {
+    margin: 32px 0;
+}
+
+.Main__repositoriesList {
+    margin-top: 32px;
+}
+
+.Main__Repository {
+    margin-bottom: 16px;
+}
+
+.Main__pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.Main__pagination *:last-child {
+    margin-left: 16px;
+}
+
+.Main__circularProgressContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 160px;
+}
+
+.Form {
+    display: flex;
+    align-items: flex-end;
+}
+
+.Form .Form__input {
+    flex: 2;
+}
+
+.Form .Form__license {
+    flex: 1;
+    margin-left: 16px;
+}
+
+.Form .Form__search {
+    margin-left: 16px;
+}
+
+@media screen and (max-width: 600px) {
+    .Form {
+        flex-direction: column;
+        align-items: initial;
+    }
+
+    .Form .Form__license {
+        margin-left: 0;
+    }
+
+    .Form .Form__search {
+        margin-left: 0;
+        margin-top: 16px;
+    }
+}
